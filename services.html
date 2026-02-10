@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Society of Legal Professionals</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="images/logo.png" alt="Society of Legal Professionals" class="h-12 mr-3">
+                        <span class="font-bold text-xl text-gray-800">Society of Legal Professionals</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="services.html" class="text-blue-600 font-medium">Services</a>
+                    <a href="membership.html" class="text-gray-700 hover:text-blue-600">Membership</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="services.html" class="block px-3 py-2 text-blue-600 font-medium">Services</a>
+                <a href="membership.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Membership</a>
+                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold mb-4">Our Services</h1>
+            <p class="text-xl">Comprehensive support for legal professionals and communities</p>
+        </div>
+    </section>
+
+    <!-- Services Content -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Service 1 -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-1">
+                        <div class="text-blue-600 text-6xl mb-4">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">Legal Aid Services</h2>
+                    </div>
+                    <div class="md:col-span-2">
+                        <p class="text-gray-600 mb-4">We provide free legal assistance to economically disadvantaged individuals who cannot afford legal representation. Our legal aid program ensures that justice is accessible to all, regardless of financial status.</p>
+                        <h3 class="font-semibold text-lg mb-2">Key Features:</h3>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Free legal consultations</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Court representation for eligible cases</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Legal documentation assistance</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Community legal awareness programs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-1">
+                        <div class="text-blue-600 text-6xl mb-4">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">Training & Development</h2>
+                    </div>
+                    <div class="md:col-span-2">
+                        <p class="text-gray-600 mb-4">Our comprehensive training programs help legal professionals enhance their skills and stay updated with the latest developments in law and legal practice.</p>
+                        <h3 class="font-semibold text-lg mb-2">Programs Include:</h3>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Continuing legal education (CLE) programs</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Soft skills development workshops</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Internship opportunities for law students</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Mentorship programs connecting senior and junior professionals</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-1">
+                        <div class="text-blue-600 text-6xl mb-4">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">Legal Research & Policy</h2>
+                    </div>
+                    <div class="md:col-span-2">
+                        <p class="text-gray-600 mb-4">We conduct comprehensive legal research on important topics using both domestic and international expertise to inform policy decisions and legal practice.</p>
+                        <h3 class="font-semibold text-lg mb-2">Research Areas:</h3>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Constitutional and administrative law</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Criminal justice reform</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Corporate and commercial law developments</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Policy recommendations for legal reforms</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-1">
+                        <div class="text-blue-600 text-6xl mb-4">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800">Environmental & Human Rights</h2>
+                    </div>
+                    <div class="md:col-span-2">
+                        <p class="text-gray-600 mb-4">We are committed to addressing climate action, environmental protection, and human rights concerns through legal advocacy and community engagement.</p>
+                        <h3 class="font-semibold text-lg mb-2">Focus Areas:</h3>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Environmental law and climate change advocacy</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Human rights protection and promotion</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Public interest litigation support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                <span class="text-gray-600">Awareness campaigns on environmental and social issues</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Services -->
+            <div class="bg-blue-50 rounded-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Additional Member Benefits</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="flex items-start">
+                        <i class="fas fa-network-wired text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold mb-1">Professional Networking</h3>
+                            <p class="text-gray-600 text-sm">Connect with legal experts across India and internationally</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-book-open text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold mb-1">Resource Library</h3>
+                            <p class="text-gray-600 text-sm">Access to comprehensive legal resources and research materials</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-calendar-alt text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold mb-1">Events & Conferences</h3>
+                            <p class="text-gray-600 text-sm">Participate in seminars, workshops, and conferences</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-certificate text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold mb-1">Certifications</h3>
+                            <p class="text-gray-600 text-sm">Professional certifications and credentials</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-comments text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold mb-1">Expert Consultation</h3>
+                            <p class="text-gray-600 text-sm">Access to senior legal experts for guidance</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-newspaper text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="font-semibold mb-1">Publications</h3>
+                            <p class="text-gray-600 text-sm">Regular newsletters and legal journals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Interested in Our Services?</h2>
+            <p class="text-xl mb-8">Contact us to learn more or become a member</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block">Contact Us</a>
+                <a href="membership.html" class="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition border-2 border-white inline-block">Become a Member</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Society of Legal Professionals</h3>
+                    <p class="text-gray-400">A non-profit organization serving India's legal professionals through advocacy, education, and community service.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="membership.html" class="text-gray-400 hover:text-white">Membership</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>New Delhi, India</li>
+                        <li><i class="fas fa-envelope mr-2"></i>info@indianlegalassociation.org</li>
+                        <li><i class="fas fa-phone mr-2"></i>+91 XXX XXX XXXX</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Society of Legal Professionals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
