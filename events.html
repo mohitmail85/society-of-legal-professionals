@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Society of Legal Professionals</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <img src="images/logo.png" alt="Logo" class="h-12 w-auto">
+                    <span class="ml-3 text-xl font-bold text-gray-800">Society of Legal Professionals</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-primary">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-primary">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-primary">Services</a>
+                    <a href="events.html" class="text-primary font-medium">Events</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-primary">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-primary">About</a>
+                <a href="services.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Services</a>
+                <a href="events.html" class="block px-3 py-2 text-primary font-medium">Events</a>
+                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-primary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-bold mb-4">Legal Conclave & Awards Program</h1>
+            <p class="text-2xl mb-4">Access of Justice to All - Accessible & Affordable</p>
+            <p class="text-lg opacity-90">Join us for an insightful discussion with leading legal experts and celebrate excellence in the legal profession</p>
+        </div>
+    </section>
+
+    <!-- Event Overview -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+                <div class="flex items-center mb-6">
+                    <div class="bg-primary rounded-full p-4 mr-4">
+                        <i class="fas fa-calendar-alt text-white text-2xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-800">About the Event</h2>
+                </div>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                    A legal conclave bringing together legal experts, jurists and academicians with the aim to put their views on the most recent issues of the society highlighting the need of proper implementation and evolvement of the existing laws.
+                </p>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    A platform recognizing and encouraging the work of legal professionals by presenting them recognition awards in their respective field of work. The conclave features <strong>2 morning sessions</strong> followed by lunch, <strong>2 afternoon sessions</strong>, and concludes with an <strong>awards ceremony</strong>.
+                </p>
+            </div>
+
+            <!-- Key Personalities -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Patron & Chief Guest -->
+                <div class="bg-gradient-to-br from-primary to-purple-700 rounded-2xl shadow-xl p-8 text-white">
+                    <div class="flex items-center mb-6">
+                        <i class="fas fa-crown text-3xl mr-4"></i>
+                        <h3 class="text-2xl font-bold">Patron & Chief Guests</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                            <p class="font-semibold text-sm opacity-80">PATRON</p>
+                            <p class="text-lg font-bold">Dr. Lalit Bhasin</p>
+                        </div>
+                        <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                            <p class="font-semibold text-sm opacity-80">CHIEF GUESTS</p>
+                            <p class="font-semibold">• Ld. Attorney General</p>
+                            <p class="font-semibold">• Sitting SC Judge (J. Manmohan / J. Sanjay Karol)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Guests -->
+                <div class="bg-gradient-to-br from-gray-700 to-gray-900 rounded-2xl shadow-xl p-8 text-white">
+                    <div class="flex items-center mb-6">
+                        <i class="fas fa-star text-3xl mr-4"></i>
+                        <h3 class="text-2xl font-bold">Special Guests</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                            <p class="font-semibold">• Ld. ASG Chetan Sharma</p>
+                            <p class="font-semibold">• Retd. Judge</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jury Panel -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+                <div class="flex items-center mb-8">
+                    <div class="bg-primary rounded-full p-4 mr-4">
+                        <i class="fas fa-gavel text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-800">Distinguished Jury Panel</h3>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-primary-50 rounded-lg p-6 hover:shadow-lg transition">
+                        <p class="font-bold text-gray-800">Former CJI Deepak Mishra</p>
+                    </div>
+                    <div class="bg-primary-50 rounded-lg p-6 hover:shadow-lg transition">
+                        <p class="font-bold text-gray-800">Dr. Lalit Bhasin</p>
+                    </div>
+                    <div class="bg-primary-50 rounded-lg p-6 hover:shadow-lg transition">
+                        <p class="font-bold text-gray-800">Mr. Jyoti Sagar</p>
+                    </div>
+                    <div class="bg-primary-50 rounded-lg p-6 hover:shadow-lg transition">
+                        <p class="font-bold text-gray-800">Ms. Manjari Chaudhary</p>
+                    </div>
+                    <div class="bg-primary-50 rounded-lg p-6 hover:shadow-lg transition">
+                        <p class="font-bold text-gray-800">Dr. Rhishikesh Dave</p>
+                        <p class="text-sm text-gray-600">Dean, Sharda School of Law</p>
+                    </div>
+                    <div class="bg-primary-50 rounded-lg p-6 hover:shadow-lg transition">
+                        <p class="font-bold text-gray-800">Mr. Qazi M. Raghib</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discussion Topics -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+                <div class="flex items-center mb-8">
+                    <div class="bg-primary rounded-full p-4 mr-4">
+                        <i class="fas fa-comments text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-800">Key Discussion Topics</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="border-l-4 border-primary bg-primary-50 pl-6 pr-6 py-4 rounded-r-lg hover:shadow-md transition">
+                        <h4 class="font-bold text-gray-800 text-lg mb-2">Is our present system delivering justice to the citizens?</h4>
+                        <p class="text-gray-600">Addressing huge pendency & expensive legal proceedings</p>
+                    </div>
+                    <div class="border-l-4 border-primary bg-primary-50 pl-6 pr-6 py-4 rounded-r-lg hover:shadow-md transition">
+                        <h4 class="font-bold text-gray-800 text-lg">Impact of Artificial Intelligence (AI) in administration of justice</h4>
+                    </div>
+                    <div class="border-l-4 border-primary bg-primary-50 pl-6 pr-6 py-4 rounded-r-lg hover:shadow-md transition">
+                        <h4 class="font-bold text-gray-800 text-lg mb-2">Dispute Resolution: Litigation, Arbitration or Mediation</h4>
+                        <p class="text-gray-600">Which one is the most effective way?</p>
+                    </div>
+                    <div class="border-l-4 border-primary bg-primary-50 pl-6 pr-6 py-4 rounded-r-lg hover:shadow-md transition">
+                        <h4 class="font-bold text-gray-800 text-lg">Professional Social Responsibility towards society</h4>
+                    </div>
+                    <div class="border-l-4 border-primary bg-primary-50 pl-6 pr-6 py-4 rounded-r-lg hover:shadow-md transition">
+                        <h4 class="font-bold text-gray-800 text-lg">Policies & law for transgenders</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Program Schedule -->
+            <div class="bg-gradient-to-br from-primary to-purple-700 rounded-2xl shadow-xl p-8 md:p-12 text-white mb-12">
+                <div class="flex items-center mb-8">
+                    <i class="fas fa-clock text-4xl mr-4"></i>
+                    <h3 class="text-3xl font-bold">Program Schedule</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            9:15 AM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Registration & Breakfast</h4>
+                            <p class="opacity-90">Guest check-in with welcome kits, networking over tea/coffee</p>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            10:00 AM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Inaugural Ceremony</h4>
+                            <p class="opacity-90">Lighting of lamps, welcome address, welcome of guests with planters</p>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            10:30 AM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Inaugural Session</h4>
+                            <p class="opacity-90">Ld. ASG Chetan Sharma, Retd. Judge</p>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            11:30 AM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">1st Working Session</h4>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            12:30 PM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">2nd Working Session</h4>
+                        </div>
+                    </div>
+                    <div class="bg-yellow-400 text-gray-900 rounded-lg p-6 flex items-center justify-center">
+                        <i class="fas fa-utensils text-2xl mr-4"></i>
+                        <h4 class="font-bold text-xl">LUNCH BREAK • 1:30 PM - 2:15 PM</h4>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            2:15 PM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">3rd Working Session</h4>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            3:30 PM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">4th Working Session</h4>
+                        </div>
+                    </div>
+                    <div class="bg-yellow-400 text-gray-900 rounded-lg p-6 flex items-center justify-center">
+                        <i class="fas fa-coffee text-2xl mr-4"></i>
+                        <h4 class="font-bold text-xl">TEA BREAK • 4:45 PM - 5:00 PM</h4>
+                    </div>
+                    <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-gray-900 rounded-lg p-6 flex items-start">
+                        <div class="bg-white text-primary rounded-lg px-4 py-2 font-bold mr-4 flex-shrink-0">
+                            5:00 PM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl mb-2">🏆 Awards Ceremony</h4>
+                            <p class="font-semibold">Honoring top lawyers, firms, judges, and scholars across categories</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Award Categories -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+                <div class="flex items-center mb-8">
+                    <div class="bg-primary rounded-full p-4 mr-4">
+                        <i class="fas fa-trophy text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-800">Award Categories</h3>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-gradient-to-br from-yellow-100 to-yellow-50 border-l-4 border-yellow-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-medal text-yellow-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Lifetime Achievement in Law</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-yellow-100 to-yellow-50 border-l-4 border-yellow-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-medal text-yellow-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Legal Luminary of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-blue-100 to-blue-50 border-l-4 border-blue-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-blue-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Legal Educator of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-pink-100 to-pink-50 border-l-4 border-pink-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-pink-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Woman Lawyer of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-green-100 to-green-50 border-l-4 border-green-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-green-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Managing Partner of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-purple-100 to-purple-50 border-l-4 border-purple-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-purple-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">General Counsel of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-indigo-100 to-indigo-50 border-l-4 border-indigo-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-indigo-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Rising Star in Litigation</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-red-100 to-red-50 border-l-4 border-red-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-red-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Pro Bono Champion</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-teal-100 to-teal-50 border-l-4 border-teal-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-teal-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Law Firm of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-orange-100 to-orange-50 border-l-4 border-orange-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-orange-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">In-house Team of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-cyan-100 to-cyan-50 border-l-4 border-cyan-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-cyan-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">PSU Legal Team of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-lime-100 to-lime-50 border-l-4 border-lime-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-lime-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Media & Entertainment Law Firm</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-violet-100 to-violet-50 border-l-4 border-violet-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-violet-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">IP Law Firm of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-rose-100 to-rose-50 border-l-4 border-rose-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-rose-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Emerging Law Firm of the Year</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-amber-100 to-amber-50 border-l-4 border-amber-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-amber-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Real Estate Law Firm</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-emerald-100 to-emerald-50 border-l-4 border-emerald-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-award text-emerald-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Best Journalism in Law</span>
+                    </div>
+                    <div class="bg-gradient-to-br from-fuchsia-100 to-fuchsia-50 border-l-4 border-fuchsia-500 p-4 rounded-lg hover:shadow-md transition">
+                        <i class="fas fa-star text-fuchsia-600 mr-2"></i>
+                        <span class="font-semibold text-gray-800">Special Recognition</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Selection Criteria -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+                <div class="flex items-center mb-8">
+                    <div class="bg-primary rounded-full p-4 mr-4">
+                        <i class="fas fa-check-circle text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-800">Selection Criteria & Process</h3>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="text-2xl font-bold text-gray-800 mb-6">Guiding Principles</h4>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <strong class="text-gray-800 text-lg">Merit-based evaluation only</strong>
+                                <p class="text-gray-600">No award for sponsorship, advertisements, or affiliations</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <strong class="text-gray-800 text-lg">Independent review</strong>
+                                <p class="text-gray-600">Structured scoring, peer review, and jury deliberation</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <strong class="text-gray-800 text-lg">Confidentiality</strong>
+                                <p class="text-gray-600">All submissions reviewed under strict confidentiality</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <strong class="text-gray-800 text-lg">Conflict-of-interest safeguards</strong>
+                                <p class="text-gray-600">Jurors must recuse themselves where conflicts exist</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 text-2xl mr-4 mt-1"></i>
+                            <div>
+                                <strong class="text-gray-800 text-lg">No assured winners</strong>
+                                <p class="text-gray-600">Awards withheld if minimum benchmarks not met</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="text-2xl font-bold text-gray-800 mb-6">Eligibility Requirements</h4>
+                    <div class="bg-primary-50 rounded-xl p-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <p class="font-bold text-gray-800 mb-2">Standing</p>
+                                <p class="text-gray-600">Advocate enrolled with State Bar Council / registered law firm</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-800 mb-2">Experience</p>
+                                <p class="text-gray-600">Min. 15 years PQE (5 years for "Rising Star")</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-800 mb-2">Compliance</p>
+                                <p class="text-gray-600">No pending disciplinary proceedings</p>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-800 mb-2">Time Period</p>
+                                <p class="text-gray-600">Work within defined assessment year</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-2xl font-bold text-gray-800 mb-6">100-Point Scoring Model</h4>
+                    <div class="space-y-6">
+                        <div class="border-l-4 border-primary bg-primary-50 rounded-r-xl p-6">
+                            <h5 class="font-bold text-xl text-gray-800 mb-4">Core Performance Metrics (70 Points)</h5>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Quality of Legal Work</span>
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">20 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Complexity & Significance</span>
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">15 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Impact & Outcomes</span>
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">15 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Consistency of Performance</span>
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">10 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Practice Area Expertise</span>
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">10 pts</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-l-4 border-green-500 bg-green-50 rounded-r-xl p-6">
+                            <h5 class="font-bold text-xl text-gray-800 mb-4">Professional Standing & Integrity (20 Points)</h5>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Ethics & Professional Conduct</span>
+                                    <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">5 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Peer Recognition</span>
+                                    <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">5 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Client Trust & Satisfaction</span>
+                                    <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">5 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Talent Retention & Diversity</span>
+                                    <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">5 pts</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-l-4 border-blue-500 bg-blue-50 rounded-r-xl p-6">
+                            <h5 class="font-bold text-xl text-gray-800 mb-4">Contribution Beyond Practice (10 Points)</h5>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Thought Leadership / Innovation</span>
+                                    <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">5 pts</span>
+                                </div>
+                                <div class="flex justify-between items-start">
+                                    <span class="font-semibold text-gray-700">Pro Bono & Social Impact</span>
+                                    <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">5 pts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA -->
+            <div class="bg-gradient-to-r from-primary to-purple-700 text-white rounded-2xl shadow-xl p-12 text-center">
+                <h3 class="text-3xl font-bold mb-4">Interested in Participating?</h3>
+                <p class="text-xl mb-8 opacity-90">For more information about the event or to submit nominations, please get in touch with us.</p>
+                <a href="contact.html" class="inline-block bg-white text-primary px-10 py-4 rounded-lg font-bold hover:bg-gray-100 transition text-lg shadow-lg">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Society of Legal Professionals</h3>
+                    <p class="text-gray-400">A non-profit organization serving India's legal professionals through advocacy, education, and community service.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="events.html" class="text-gray-400 hover:text-white">Events</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html" class="text-gray-400 hover:text-white">Disclaimer</a></li>
+                        <li><a href="copyright.html" class="text-gray-400 hover:text-white">Copyright</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Chamber No. 116, Civil Wing,<br>Tees Hazari Courts, Delhi</li>
+                        <li><a href="mailto:slegalprofessionals@gmail.com" class="hover:text-white"><i class="fas fa-envelope mr-2"></i>slegalprofessionals@gmail.com</a></li>
+                        <li><a href="tel:+917043636363" class="hover:text-white"><i class="fas fa-phone mr-2"></i>+91 704 363 6363</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Society of Legal Professionals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

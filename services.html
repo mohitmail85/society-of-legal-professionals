@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" href="images/logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
@@ -20,11 +21,11 @@
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
-                    <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
-                    <a href="services.html" class="text-blue-600 font-medium">Services</a>
-                    <a href="membership.html" class="text-gray-700 hover:text-blue-600">Membership</a>
-                    <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+                    <a href="index.html" class="text-gray-700 hover:text-primary">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-primary">About</a>
+                    <a href="services.html" class="text-primary font-medium">Services</a>
+                    <a href="events.html" class="text-gray-700 hover:text-primary">Events</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-primary">Contact</a>
                 </div>
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-button" class="text-gray-700">
@@ -35,17 +36,17 @@
         </div>
         <div id="mobile-menu" class="hidden md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
-                <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">About</a>
-                <a href="services.html" class="block px-3 py-2 text-blue-600 font-medium">Services</a>
-                <a href="membership.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Membership</a>
-                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact</a>
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-primary">About</a>
+                <a href="services.html" class="block px-3 py-2 text-primary font-medium">Services</a>
+                <a href="events.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Events</a>
+                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Page Header -->
-    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+    <section class="bg-gradient-primary text-white py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="text-4xl font-bold mb-4">Our Services</h1>
             <p class="text-xl">Comprehensive support for legal professionals and communities</p>
@@ -59,7 +60,7 @@
             <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="md:col-span-1">
-                        <div class="text-blue-600 text-6xl mb-4">
+                        <div class="text-primary text-6xl mb-4">
                             <i class="fas fa-hands-helping"></i>
                         </div>
                         <h2 class="text-2xl font-bold text-gray-800">Legal Aid Services</h2>
@@ -93,7 +94,7 @@
             <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="md:col-span-1">
-                        <div class="text-blue-600 text-6xl mb-4">
+                        <div class="text-primary text-6xl mb-4">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
                         <h2 class="text-2xl font-bold text-gray-800">Training & Development</h2>
@@ -127,7 +128,7 @@
             <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="md:col-span-1">
-                        <div class="text-blue-600 text-6xl mb-4">
+                        <div class="text-primary text-6xl mb-4">
                             <i class="fas fa-search"></i>
                         </div>
                         <h2 class="text-2xl font-bold text-gray-800">Legal Research & Policy</h2>
@@ -161,7 +162,7 @@
             <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="md:col-span-1">
-                        <div class="text-blue-600 text-6xl mb-4">
+                        <div class="text-primary text-6xl mb-4">
                             <i class="fas fa-leaf"></i>
                         </div>
                         <h2 class="text-2xl font-bold text-gray-800">Environmental & Human Rights</h2>
@@ -192,46 +193,46 @@
             </div>
 
             <!-- Additional Services -->
-            <div class="bg-blue-50 rounded-lg p-8">
+            <div class="bg-primary-50 rounded-lg p-8">
                 <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Additional Member Benefits</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div class="flex items-start">
-                        <i class="fas fa-network-wired text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <i class="fas fa-network-wired text-primary text-2xl mr-4 mt-1"></i>
                         <div>
                             <h3 class="font-semibold mb-1">Professional Networking</h3>
                             <p class="text-gray-600 text-sm">Connect with legal experts across India and internationally</p>
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <i class="fas fa-book-open text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <i class="fas fa-book-open text-primary text-2xl mr-4 mt-1"></i>
                         <div>
                             <h3 class="font-semibold mb-1">Resource Library</h3>
                             <p class="text-gray-600 text-sm">Access to comprehensive legal resources and research materials</p>
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <i class="fas fa-calendar-alt text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <i class="fas fa-calendar-alt text-primary text-2xl mr-4 mt-1"></i>
                         <div>
                             <h3 class="font-semibold mb-1">Events & Conferences</h3>
                             <p class="text-gray-600 text-sm">Participate in seminars, workshops, and conferences</p>
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <i class="fas fa-certificate text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <i class="fas fa-certificate text-primary text-2xl mr-4 mt-1"></i>
                         <div>
                             <h3 class="font-semibold mb-1">Certifications</h3>
                             <p class="text-gray-600 text-sm">Professional certifications and credentials</p>
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <i class="fas fa-comments text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <i class="fas fa-comments text-primary text-2xl mr-4 mt-1"></i>
                         <div>
                             <h3 class="font-semibold mb-1">Expert Consultation</h3>
                             <p class="text-gray-600 text-sm">Access to senior legal experts for guidance</p>
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <i class="fas fa-newspaper text-blue-600 text-2xl mr-4 mt-1"></i>
+                        <i class="fas fa-newspaper text-primary text-2xl mr-4 mt-1"></i>
                         <div>
                             <h3 class="font-semibold mb-1">Publications</h3>
                             <p class="text-gray-600 text-sm">Regular newsletters and legal journals</p>
@@ -242,22 +243,10 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="bg-blue-600 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">Interested in Our Services?</h2>
-            <p class="text-xl mb-8">Contact us to learn more or become a member</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="contact.html" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block">Contact Us</a>
-                <a href="membership.html" class="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition border-2 border-white inline-block">Become a Member</a>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Society of Legal Professionals</h3>
                     <p class="text-gray-400">A non-profit organization serving India's legal professionals through advocacy, education, and community service.</p>
@@ -267,16 +256,24 @@
                     <ul class="space-y-2">
                         <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
                         <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
-                        <li><a href="membership.html" class="text-gray-400 hover:text-white">Membership</a></li>
+                        <li><a href="events.html" class="text-gray-400 hover:text-white">Events</a></li>
                         <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html" class="text-gray-400 hover:text-white">Disclaimer</a></li>
+                        <li><a href="copyright.html" class="text-gray-400 hover:text-white">Copyright</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact Info</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><i class="fas fa-map-marker-alt mr-2"></i>New Delhi, India</li>
-                        <li><i class="fas fa-envelope mr-2"></i>info@indianlegalassociation.org</li>
-                        <li><i class="fas fa-phone mr-2"></i>+91 9999735003</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Chamber No. 116, Civil Wing,<br>Tees Hazari Courts, Delhi</li>
+                        <li><a href="mailto:slegalprofessionals@gmail.com" class="hover:text-white"><i class="fas fa-envelope mr-2"></i>slegalprofessionals@gmail.com</a></li>
+                        <li><a href="tel:+917043636363" class="hover:text-white"><i class="fas fa-phone mr-2"></i>+91 704 363 6363</a></li>
                     </ul>
                 </div>
             </div>

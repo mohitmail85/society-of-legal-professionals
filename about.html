@@ -1,204 +1,498 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Society of Legal Professionals</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body class="bg-gray-50">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-gray-50">
     <!-- Navigation -->
     <nav class="bg-white shadow-lg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center">
-                    <a href="index.html" class="flex items-center">
-                        <img src="images/logo.png" alt="Society of Legal Professionals" class="h-12 mr-3">
-                        <span class="font-bold text-xl text-gray-800">Society of Legal Professionals</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
-                    <a href="about.html" class="text-blue-600 font-medium">About</a>
-                    <a href="services.html" class="text-gray-700 hover:text-blue-600">Services</a>
-                    <a href="membership.html" class="text-gray-700 hover:text-blue-600">Membership</a>
-                    <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
-                </div>
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="text-gray-700">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
-                </div>
-            </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="index.html" class="flex items-center">
+              <img
+                src="images/logo.png"
+                alt="Society of Legal Professionals"
+                class="h-12 mr-3"
+              />
+              <span class="font-bold text-xl text-gray-800"
+                >Society of Legal Professionals</span
+              >
+            </a>
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a href="index.html" class="text-gray-700 hover:text-primary"
+              >Home</a
+            >
+            <a href="about.html" class="text-primary font-medium">About</a>
+            <a href="services.html" class="text-gray-700 hover:text-primary"
+              >Services</a
+            >
+            <a href="events.html" class="text-gray-700 hover:text-primary"
+              >Events</a
+            >
+            <a href="contact.html" class="text-gray-700 hover:text-primary"
+              >Contact</a
+            >
+          </div>
+          <div class="md:hidden flex items-center">
+            <button id="mobile-menu-button" class="text-gray-700">
+              <i class="fas fa-bars text-2xl"></i>
+            </button>
+          </div>
         </div>
-        <div id="mobile-menu" class="hidden md:hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
-                <a href="about.html" class="block px-3 py-2 text-blue-600 font-medium">About</a>
-                <a href="services.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Services</a>
-                <a href="membership.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Membership</a>
-                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact</a>
-            </div>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a
+            href="index.html"
+            class="block px-3 py-2 text-gray-700 hover:text-primary"
+            >Home</a
+          >
+          <a href="about.html" class="block px-3 py-2 text-primary font-medium"
+            >About</a
+          >
+          <a
+            href="services.html"
+            class="block px-3 py-2 text-gray-700 hover:text-primary"
+            >Services</a
+          >
+          <a
+            href="events.html"
+            class="block px-3 py-2 text-gray-700 hover:text-primary"
+            >Events</a
+          >
+          <a
+            href="contact.html"
+            class="block px-3 py-2 text-gray-700 hover:text-primary"
+            >Contact</a
+          >
         </div>
+      </div>
     </nav>
 
     <!-- Page Header -->
-    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-4xl font-bold mb-4">About Us</h1>
-            <p class="text-xl">Learn more about our organization and mission</p>
-        </div>
+    <section class="bg-gradient-primary text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-4xl font-bold mb-4">About Us</h1>
+        <p class="text-xl">Learn more about our organization and mission</p>
+      </div>
     </section>
 
     <!-- About Content -->
     <section class="py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-12 mb-16">
-                <div>
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Who We Are</h2>
-                    <p class="text-gray-600 mb-4">The Society of Legal Professionals is a voluntary, non-profit organization dedicated to serving India's legal professionals. We are an all-inclusive platform working to develop a united front of legal professionals across the nation.</p>
-                    <p class="text-gray-600 mb-4">Our organization focuses on capacity building through national and international engagements while providing policy guidance on significant legal and social issues affecting our communities.</p>
-                    <p class="text-gray-600">Registered as a Public Charitable Trust under India's Registration Act (1908), we maintain tax-exempt status and CSR eligibility, ensuring transparency and accountability in all our operations.</p>
-                </div>
-                <div class="bg-blue-50 p-8 rounded-lg">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Our Vision</h3>
-                    <p class="text-gray-600 mb-6">To create a unified, empowered community of legal professionals who contribute to justice, equality, and social progress across India.</p>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Our Values</h3>
-                    <ul class="space-y-3">
-                        <li class="flex items-start">
-                            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-                            <span class="text-gray-600"><strong>Excellence:</strong> Commitment to highest standards</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-                            <span class="text-gray-600"><strong>Integrity:</strong> Ethical conduct in all activities</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-                            <span class="text-gray-600"><strong>Service:</strong> Dedication to community welfare</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-                            <span class="text-gray-600"><strong>Collaboration:</strong> Building partnerships for impact</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Core Focus Areas -->
-            <div class="mb-16">
-                <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Our Core Focus Areas</h2>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                        <div class="text-blue-600 text-4xl mb-4">
-                            <i class="fas fa-hands-helping"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-3">Legal Aid Services</h3>
-                        <p class="text-gray-600">Providing free legal assistance to those in need</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                        <div class="text-blue-600 text-4xl mb-4">
-                            <i class="fas fa-chalkboard-teacher"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-3">Capacity Building</h3>
-                        <p class="text-gray-600">Training and development programs</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                        <div class="text-blue-600 text-4xl mb-4">
-                            <i class="fas fa-book"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-3">Research & Policy</h3>
-                        <p class="text-gray-600">Legal research and policy guidance</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                        <div class="text-blue-600 text-4xl mb-4">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-3">Global Engagement</h3>
-                        <p class="text-gray-600">International collaborations and partnerships</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Organizational Structure -->
-            <div class="bg-white rounded-lg shadow-md p-8">
-                <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Organizational Structure</h2>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="text-center">
-                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-user-tie text-blue-600 text-3xl"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">Patrons</h3>
-                        <p class="text-gray-600">Senior legal luminaries providing guidance and support</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-users text-blue-600 text-3xl"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">Advisory Council</h3>
-                        <p class="text-gray-600">Expert advisors on policy and strategic matters</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-briefcase text-blue-600 text-3xl"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">Executive Committee</h3>
-                        <p class="text-gray-600">Day-to-day management and operations</p>
-                    </div>
-                </div>
-            </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 mb-16">
+          <div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Who We Are</h2>
+            <p class="text-gray-600 mb-4">
+              The Society of Legal Professionals is a voluntary, non-profit
+              organization dedicated to serving India's legal professionals. We
+              are an all-inclusive platform working to develop a united front of
+              legal professionals across the nation.
+            </p>
+            <p class="text-gray-600 mb-4">
+              Our organization focuses on capacity building through national and
+              international engagements while providing policy guidance on
+              critical legal and social issues affecting our communities.
+            </p>
+            <p class="text-gray-600 mb-4">
+              It further aims to bring all the legal professionals, who work in
+              their respective fields making contribution in either formulation
+              of any policy, rule, law, statute etc. or executing the same,
+              under one umbrella.
+            </p>
+            <p class="text-gray-600">
+              Registered as a Society under the Society Registration Act (1860),
+              we maintain the highest standards of transparency and
+              accountability in all our operations.
+            </p>
+          </div>
+          <div class="bg-primary-50 p-8 rounded-lg">
+            <h3 class="text-2xl font-bold text-gray-800 mb-6">Our Vision</h3>
+            <p class="text-gray-600 mb-6">
+              To create a unified, empowered community of legal professionals
+              who contribute to justice, equality, and social progress across
+              India.
+            </p>
+            <h3 class="text-2xl font-bold text-gray-800 mb-6">Our Values</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
+                <span class="text-gray-600"
+                  ><strong>Excellence:</strong> Commitment to highest
+                  standards</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
+                <span class="text-gray-600"
+                  ><strong>Integrity:</strong> Ethical conduct in all
+                  activities</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
+                <span class="text-gray-600"
+                  ><strong>Service:</strong> Dedication to community
+                  welfare</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
+                <span class="text-gray-600"
+                  ><strong>Collaboration:</strong> Building partnerships for
+                  impact</span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section class="bg-blue-600 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">Join Our Mission</h2>
-            <p class="text-xl mb-8">Be part of a community dedicated to legal excellence and social justice</p>
-            <a href="membership.html" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block">Learn About Membership</a>
+        <!-- Core Focus Areas -->
+        <div class="mb-16">
+          <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+            Our Core Focus Areas
+          </h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div
+              class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition"
+            >
+              <div class="text-primary text-5xl mb-4">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-3">Legal Aid Services</h3>
+              <p class="text-gray-600">
+                Providing free legal assistance to those in need
+              </p>
+            </div>
+            <div
+              class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition"
+            >
+              <div class="text-primary text-5xl mb-4">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-3">Capacity Building</h3>
+              <p class="text-gray-600">Training and development programs</p>
+            </div>
+            <div
+              class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition"
+            >
+              <div class="text-primary text-5xl mb-4">
+                <i class="fas fa-search-dollar"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-3">Research & Policy</h3>
+              <p class="text-gray-600">Legal research and policy guidance</p>
+            </div>
+            <div
+              class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition"
+            >
+              <div class="text-primary text-5xl mb-4">
+                <i class="fas fa-globe-asia"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-3">Global Engagement</h3>
+              <p class="text-gray-600">
+                International collaborations and partnerships
+              </p>
+            </div>
+          </div>
         </div>
+
+        <!-- Organizational Structure -->
+        <div class="bg-white rounded-lg shadow-xl p-8">
+          <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+            Organizational Structure
+          </h2>
+
+          <!-- Tab Navigation -->
+          <div class="flex flex-wrap justify-center gap-2 mb-8">
+            <button
+              onclick="showRole('patron')"
+              id="btn-patron"
+              class="role-tab px-6 py-3 rounded-lg font-semibold transition bg-primary text-white"
+            >
+              <i class="fas fa-crown mr-2"></i>Patron
+            </button>
+            <button
+              onclick="showRole('president')"
+              id="btn-president"
+              class="role-tab px-6 py-3 rounded-lg font-semibold transition bg-gray-200 text-gray-700 hover:bg-gray-300"
+            >
+              <i class="fas fa-user-shield mr-2"></i>President
+            </button>
+            <button
+              onclick="showRole('secretary')"
+              id="btn-secretary"
+              class="role-tab px-6 py-3 rounded-lg font-semibold transition bg-gray-200 text-gray-700 hover:bg-gray-300"
+            >
+              <i class="fas fa-file-signature mr-2"></i>Secretary
+            </button>
+            <button
+              onclick="showRole('treasurer')"
+              id="btn-treasurer"
+              class="role-tab px-6 py-3 rounded-lg font-semibold transition bg-gray-200 text-gray-700 hover:bg-gray-300"
+            >
+              <i class="fas fa-coins mr-2"></i>Treasurer
+            </button>
+            <button
+              onclick="showRole('executive')"
+              id="btn-executive"
+              class="role-tab px-6 py-3 rounded-lg font-semibold transition bg-gray-200 text-gray-700 hover:bg-gray-300"
+            >
+              <i class="fas fa-users-cog mr-2"></i>Executive Members
+            </button>
+          </div>
+
+          <!-- Role Content -->
+          <div id="role-patron" class="role-content">
+            <div class="max-w-2xl mx-auto text-center">
+              <div
+                class="bg-gradient-to-br from-yellow-100 to-yellow-50 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-6 shadow-lg"
+              >
+                <i class="fas fa-crown text-yellow-600 text-5xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">Patron</h3>
+              <p class="text-gray-600 text-lg">
+                Distinguished legal luminary providing guidance, vision, and
+                support to the organization's mission and strategic direction.
+              </p>
+            </div>
+          </div>
+
+          <div id="role-president" class="role-content hidden">
+            <div class="max-w-2xl mx-auto text-center">
+              <div
+                class="bg-gradient-to-br from-primary to-purple-200 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-6 shadow-lg"
+              >
+                <i class="fas fa-user-shield text-white text-5xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">President</h3>
+              <p class="text-gray-600 text-lg">
+                Chief executive officer leading the organization, setting
+                strategic direction, and representing the Society in all
+                official capacities.
+              </p>
+            </div>
+          </div>
+
+          <div id="role-secretary" class="role-content hidden">
+            <div class="max-w-2xl mx-auto text-center">
+              <div
+                class="bg-gradient-to-br from-blue-100 to-blue-50 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-6 shadow-lg"
+              >
+                <i class="fas fa-file-signature text-blue-600 text-5xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">Secretary</h3>
+              <p class="text-gray-600 text-lg">
+                Manages official correspondence, maintains records, coordinates
+                meetings, and ensures compliance with legal and regulatory
+                requirements.
+              </p>
+            </div>
+          </div>
+
+          <div id="role-treasurer" class="role-content hidden">
+            <div class="max-w-2xl mx-auto text-center">
+              <div
+                class="bg-gradient-to-br from-green-100 to-green-50 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-6 shadow-lg"
+              >
+                <i class="fas fa-coins text-green-600 text-5xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">Treasurer</h3>
+              <p class="text-gray-600 text-lg">
+                Oversees financial management, budgeting, accounting, and
+                ensures proper utilization of funds in accordance with the
+                Society's objectives.
+              </p>
+            </div>
+          </div>
+
+          <div id="role-executive" class="role-content hidden">
+            <div class="max-w-4xl mx-auto">
+              <div class="text-center mb-8">
+                <div
+                  class="bg-gradient-to-br from-purple-100 to-purple-50 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-6 shadow-lg"
+                >
+                  <i class="fas fa-users-cog text-purple-600 text-5xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                  Executive Members
+                </h3>
+                <p class="text-gray-600 text-lg mb-8">
+                  Key members supporting the organization's operations and
+                  strategic initiatives across various domains.
+                </p>
+              </div>
+              <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-primary-50 rounded-lg p-6 text-center">
+                  <div
+                    class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4"
+                  >
+                    <i class="fas fa-user-tie text-primary text-2xl"></i>
+                  </div>
+                  <h4 class="font-bold text-gray-800">Executive Member</h4>
+                </div>
+                <div class="bg-primary-50 rounded-lg p-6 text-center">
+                  <div
+                    class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4"
+                  >
+                    <i class="fas fa-user-tie text-primary text-2xl"></i>
+                  </div>
+                  <h4 class="font-bold text-gray-800">Executive Member</h4>
+                </div>
+                <div class="bg-primary-50 rounded-lg p-6 text-center">
+                  <div
+                    class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4"
+                  >
+                    <i class="fas fa-user-tie text-primary text-2xl"></i>
+                  </div>
+                  <h4 class="font-bold text-gray-800">Executive Member</h4>
+                </div>
+                <div class="bg-primary-50 rounded-lg p-6 text-center">
+                  <div
+                    class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4"
+                  >
+                    <i class="fas fa-user-tie text-primary text-2xl"></i>
+                  </div>
+                  <h4 class="font-bold text-gray-800">Executive Member</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Society of Legal Professionals</h3>
-                    <p class="text-gray-400">A non-profit organization serving India's legal professionals through advocacy, education, and community service.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
-                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
-                        <li><a href="membership.html" class="text-gray-400 hover:text-white">Membership</a></li>
-                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><i class="fas fa-map-marker-alt mr-2"></i>New Delhi, India</li>
-                        <li><i class="fas fa-envelope mr-2"></i>info@indianlegalassociation.org</li>
-                        <li><i class="fas fa-phone mr-2"></i>+91 9999735003</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2026 Society of Legal Professionals. All rights reserved.</p>
-            </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-4">
+              Society of Legal Professionals
+            </h3>
+            <p class="text-gray-400">
+              A non-profit organization serving India's legal professionals
+              through advocacy, education, and community service.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="about.html" class="text-gray-400 hover:text-white"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="services.html" class="text-gray-400 hover:text-white"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="events.html" class="text-gray-400 hover:text-white"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a href="contact.html" class="text-gray-400 hover:text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Legal</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="privacy.html" class="text-gray-400 hover:text-white"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="disclaimer.html" class="text-gray-400 hover:text-white"
+                  >Disclaimer</a
+                >
+              </li>
+              <li>
+                <a href="copyright.html" class="text-gray-400 hover:text-white"
+                  >Copyright</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <i class="fas fa-map-marker-alt mr-2"></i>Chamber No. 116, Civil
+                Wing,<br />Tees Hazari Courts, Delhi
+              </li>
+              <li>
+                <a
+                  href="mailto:slegalprofessionals@gmail.com"
+                  class="hover:text-white"
+                  ><i class="fas fa-envelope mr-2"></i
+                  >slegalprofessionals@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+917043636363" class="hover:text-white"
+                  ><i class="fas fa-phone mr-2"></i>+91 704 363 6363</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <div
+          class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400"
+        >
+          <p>
+            &copy; 2026 Society of Legal Professionals. All rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script>
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Role tab switching functionality
+      function showRole(role) {
+        // Hide all role content
+        const allContent = document.querySelectorAll(".role-content");
+        allContent.forEach((content) => {
+          content.classList.add("hidden");
         });
+
+        // Remove active state from all tabs
+        const allTabs = document.querySelectorAll(".role-tab");
+        allTabs.forEach((tab) => {
+          tab.classList.remove("bg-primary", "text-white");
+          tab.classList.add("bg-gray-200", "text-gray-700");
+        });
+
+        // Show selected role content
+        document.getElementById("role-" + role).classList.remove("hidden");
+
+        // Add active state to selected tab
+        document
+          .getElementById("btn-" + role)
+          .classList.remove("bg-gray-200", "text-gray-700");
+        document
+          .getElementById("btn-" + role)
+          .classList.add("bg-primary", "text-white");
+      }
     </script>
-</body>
+  </body>
 </html>
